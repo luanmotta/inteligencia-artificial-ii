@@ -1,0 +1,29 @@
+1 = 4 epocas
+1 = 4 epocas
+
+2 = 4 epocas
+2 = 4 epocas
+
+0.5 = 4 epocas
+0.5 = 4 epocas
+
+0.001 = 4 epocas
+0.001 = 4 epocas
+
+1 - Não observamos nenhuma diferença na quantidade de épocas necessárias
+para o reconhecimento de um OR alterando o fator de aprendizagem (eta).
+Porém, os pesos são alterados de diferentes formas ao longo das épocas
+para cada fator de aprendizagem. Todavia, em todos os teste, os pesos
+acabam com o mesmo valor.
+
+2 - Sim, continua funcionando. Porém, diferente do Or que demorou 4 épocas,
+o And demorou 6 épocas.
+
+3 - Não, o neurônio não foi capaz de aprender o xor. Isto porque teoricamente
+um neurônio não é capaz de separar as classes em uma linha reta.
+
+
+4 - A rede neural obteve 100% de acerto na fase de teste. Também observamos que a rede concluiu o treinamento em 6 épocas.
+
+5 - Piorou, pois com 2 neuronios, um para cada classe, acabam por não aprender. Um neuronio que aprenda apenas as situações ruins, sempre
+responderá qualquer teste como ruim, e o mesmo serve para o outro que aprendeu sempre com situações boas e respondem sempre como bom..
